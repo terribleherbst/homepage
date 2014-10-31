@@ -1,0 +1,46 @@
+<html>
+{{> header }}
+<body>
+{{> navigation }}
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                {{#each collections.posts}}
+                <div class="post-preview">
+                    <a href="{{ this.path }}">
+                        <h2 class="post-title">
+                            {{ this.title }}
+                        </h2>
+                        <h3 class="post-subtitle">
+                           {{{ this.excerpt }}}
+                        </h3>
+                    </a>
+                    {{#if this.author}}
+                        <p class="post-meta">Posted by {{ this.author }}</p>
+                    {{/if}}
+                    
+                </div>
+                <hr>
+                {{/each}}
+                <!-- Pager -->
+
+                
+                {{#if this.pagination}}
+                    <nav class="pagination">
+                        {{#if this.pagination.next}}
+           <ul class="pager">
+               <li class="next">
+                   <a href="#">Older Posts &rarr;</a>
+               </li>
+           </ul>
+                        {{/if}}
+                    </nav>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+
+{{> footer }}
+</body>
+</html>
