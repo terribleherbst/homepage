@@ -1,6 +1,6 @@
 {
   "name": "joergherbst.de",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "My Personal Blog.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,6 @@
     "fs": "0.0.2",
     "handlebars": "^2.0.0",
     "highlight.js": "^8.3.0",
-    "hljs": "^6.2.3",
     "metalsmith": "^1.0.1",
     "metalsmith-collections": "^0.6.0",
     "metalsmith-excerpts": "^1.0.0",
