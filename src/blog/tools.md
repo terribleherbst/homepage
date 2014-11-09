@@ -22,7 +22,7 @@ Of course there is a lot more I could talk about, I'll add some tools here I fin
 # My reommendation
 As pointed out before, my tool list is not a recommandation, but I've got one. *Know* your tools! I've met so many developers who were not confortable with their day to day working tools. Keep in mind you must do a lot of work on your day to day job and you want getting it done fast. So try get the best tools and learn everything you need as fast as possible. 
 
-* Using shortcuts it's the fastest way for getting things done with a texteditor. So take a texteditor (and/or and IDE) and learn the shortcuts.
+* Using shortcuts is the fastest way for getting things done with an editor. So take a editor (and/or and IDE) of your choice and *learn* the shortcuts.
 * Don't wait for your computer. Use background processes, multiple (virtual) screens or tabs to doing some other works while your computer is compiling, downloading or something else.
 * Doing regular jobs with multiple files is done fastest using scripts. So learn at least basing script programming in you operating system of choice.
 * Customize you're personal programs and operating system in the way you want to work. Install virtual screen, use custom shortcuts, change keyboard layout. This may take some time, but once done you're much more productive.
