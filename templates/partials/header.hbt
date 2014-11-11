@@ -7,10 +7,10 @@
     <title>Blog of Jörg Herbst</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/css/clean-blog.css" rel="stylesheet">
+    <link href="/css/clean-blog.min.css" rel="stylesheet">
     <link href="/css/default.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
