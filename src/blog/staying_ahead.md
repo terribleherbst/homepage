@@ -1,11 +1,10 @@
 ---
 title: Staying ahead of the curve
-date: 2014-11-11
+date: 2014-11-08
 template: single.hbt
 ---
 ## Amazing presentation about new technology
-
-Last week Trisha Gee gave a keynote [how to stay ahead of the curve](http://trishagee.github.io/presentation/staying_ahead_of_the_curve/) at the [GOTO Berlin] (http://gotocon.com/berlin-2014/presentation/Party%20Keynote:%20Staying%20Ahead%20of%20the%20Curve) conference. Unfortunattly I wasn't there although it seem one of the new conferences which provides real new information.
+Last week Trisha Gee gave a keynote [how to stay ahead of the curve](http://trishagee.github.io/presentation/staying_ahead_of_the_curve/) at the [GOTO Berlin](http://gotocon.com/berlin-2014/presentation/Party%20Keynote:%20Staying%20Ahead%20of%20the%20Curve) conference. Unfortunattly I wasn't there although it seem one of the new conferences which provides real new information.
 
 ## My personal situation
 I hope Trisha will be able to upload the video of the talk. I'm very familiar with such a situation. There are a lot of technologies out their and new project are spreading I'm very exited with trying thinks out. But in my day to day business there are a lot of of facts to consider, like:

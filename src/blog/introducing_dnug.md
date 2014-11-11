@@ -4,8 +4,7 @@ date: 2014-11-09
 template: single.hbt
 ---
 ## Talking at the DNUG conference
-
-Next week I'm on my way to Leipzig to the german [DNUG conference](http://www.dnug.de/Dnug/cms.nsf/id/41st-dnug-conference-november-2014-leipzig). I'll give a short to about *porting* a given IBM domino application to the [IBM Bluemix](www.bluemix.net) plattform. The talk is actual not about porting but about rewriting the whole stuff on bluemix.
+Next week I'm on my way to Leipzig to the german [DNUG conference](http://www.dnug.de/Dnug/cms.nsf/id/41st-dnug-conference-november-2014-leipzig). I'll give a short to about *porting* a given IBM domino application to the [IBM Bluemix](http://www.bluemix.net) plattform. The talk is actual not about porting but about rewriting the whole stuff on bluemix.
 
 ## IBM Domino and Bluemix
 It's the first time I visit this conference, most of the audience and the talk is about IBM Domino application development and I've never been in that business. But most of my customers are, or at least were, developing applications on that plattform. But the shift is going, more and more companies are leaving the old IBM mail system to switch to a more lightweight solution. Some of them are using a appliance or cloud offering, others are introducing Microsoft Exchange or other on premises solutions. But none of these plattforms I've encountered so far is a development platform, like Lotus Notes was. 
