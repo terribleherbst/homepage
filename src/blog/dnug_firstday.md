@@ -13,11 +13,12 @@ Some of you will know, I'm a great fan of managed evolution, meaning technology 
 
 * It's a *cloud first* solution, it will be available in the cloud soon, on premises during 2015
 * Mail next will use a Dashboard instead of an inbox
-* Mail next can handle Todos, you can create a todo direct from your inbox.
-* Mail next will integrate blog posts
+* It can handle Todos, you can create a todo direct from your inbox.
+* It will integrate blog posts
+* You'll get soe kind
 
 
 ## Domino is going to Bluemix
 Finally! They've done it! I'm on the Bluemix platform since the closed beta. [IBM Bluemix](www.bluemix.net) is a plattform as a service, including open source services and a lot of IBM stuff. You can join this plattform for free and try the latest technology.
 Nearly every service is available in a free tier, so you can try **Watson** or other latest IBM technologies for free.
-So as a domino developer, join Bluemix and get familiar. IBM Domino is not available yet but it will be availabe soon. So even if your company is dropping notes as an email client you can still use your Domino application. I'll provide you with more details as soon as I know.
+So as a domino developer, join Bluemix and get familiar. IBM Domino is not available yet but they are proving it and I guess it will be availabe soon. Ok actually say have just *mentioned* they are doing some testing but I guess they'll make it! So even if your company is dropping notes as an email client you can still use your Domino application. I'll provide you with more details as soon as I know.
