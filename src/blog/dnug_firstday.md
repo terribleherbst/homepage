@@ -1,24 +1,21 @@
 ---
-title: My First Day at DNUG
-date: 2014-11-11
+title: New Server
+date: 2014-11-16
 template: single.hbt
 ---
-## DNUG has started
-Today the german DNUG conference has started. Jack Welsh just gave a keynote about the *IBM mail next* project which will be presented next week in New York. He also spoke about Domino on Bluemix.
+## New server started
+Just about after I've set up this new blog it was already down. This is new virtual maschine, the first crashed with a "virtual hardware error". Someone told me computer help us to solve problems we didn't have without computers. So this time a complete new kind of error, I just hadn't the time to debug is, but it seems the bootloader was broken. So setup took a while but it's faster to setup a new virutal maschine than debuggen into the linux bootloader if you're not deep into linux.
 
-## IBM is reinventing mail
+## I'm back
+Yes, I'm back. And while I'm writing on this, I'll give you some more details about my infrastrucutre:
 
-Mail next is **not** a new mail client and at least a new version of the Notes Client is a complete new client. There was just a *click demo* of the user interface and Mr. Welsh just told us about the ideas behind mail next.
-Some of you will know, I'm a great fan of managed evolution, meaning technology and organisational shifts going side by side. I guess *IBM mail next* is one of this things:
+* This is Linux machine. I don't want to spent money on windows license for (web) servers and remote administration is much easier for text base linux than remote windows administration.
+* I'm running on CentOS. In business we're mostly running RedHat cause it's supported by all major software vendors. I'm glad there is an open source solution using almost the same software stack.
+* The blog is server by an nginx machine. I was running apache http since my first weg page, but I think it's time to give nginx a chance.
 
-* It's a *cloud first* solution, it will be available in the cloud soon, on premises during 2015
-* Mail next will use a Dashboard instead of an inbox
-* It can handle Todos, you can create a todo direct from your inbox.
-* It will integrate blog posts
-* You'll get soe kind
+So I hope you won't see a downtime soon, but after all this is an experiment machine for personal purpose. So don't rely on it.
 
-
-## Domino is going to Bluemix
-Finally! They've done it! I'm on the Bluemix platform since the closed beta. [IBM Bluemix](www.bluemix.net) is a plattform as a service, including open source services and a lot of IBM stuff. You can join this plattform for free and try the latest technology.
-Nearly every service is available in a free tier, so you can try **Watson** or other latest IBM technologies for free.
-So as a domino developer, join Bluemix and get familiar. IBM Domino is not available yet but they are proving it and I guess it will be availabe soon. Ok actually say have just *mentioned* they are doing some testing but I guess they'll make it! So even if your company is dropping notes as an email client you can still use your Domino application. I'll provide you with more details as soon as I know.
+## Backups
+After a crash I thought of course about better backup strategies. Of course think about backups only when it's to late.
+But after a few moments I realized my *no backup* strategy still works well. I keep a *backup* of this blog at my computer and the git data is also pushed to github. So all I store is data, no software is backed up.
+In a virtual container based environment, it's easier to reinstall the standard software from a repository than managing a large backup. So I have no work with creating daily backups and just keep my git repo and everything else is done by the standard repositories of CentOS.
