@@ -11,4 +11,3 @@ As mentioned [before](metalsmith.html) I didn't want to take a step backword and
 
 ## Feedback
 So please give me some feedback what you think about the themes and the new site. I hope disqus works better than the build in system and there is not so much spam this time.
-
