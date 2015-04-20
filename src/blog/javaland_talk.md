@@ -1,26 +1,26 @@
 ---
-title: Angular meets JEE
+title: Angular meets Java
 date: 2015-03-30
 template: single.hbt
 ---
-# Angular meets JEE
+# Angular meets Java
 
-At the Javaland Conference I gave a short talk about using JEE backends with an AngularJS Frontend. As I'm involved in Java and JavaScript development I wanted to show how much is possible when combining best of both technologies.
+At the Javaland Conference I gave a short talk about using JEE backends with an AngularJS Frontend. As I'm involved in Java and JavaScript development I wanted to show how much is possible when combining best practices of both technologies.
 
-When talking to developers using only one the both involved languages I usually hear something like:
+When talking to developers using only one the both involved languages I usually hear something like the following:
 
 * Javascript is not stable. The platform supports differes from browser to browser and you have to check for a lot of special cases or browser dependencies.
 * Java development is slow and no fun. You've a lot of roundtrips, boilerplate code and the JVM is pretty fat and slow.
 
-So I want to show you this is not true any longer.
+So I want to show you this may be the case but can be overcome if you use a state of the art technology stack.
 
 
 # The project
-The [project](https://github.com/terribleherbst/ratpack-sampl) shows a simple list of coffee shops in a view. It's a technology demo not best practice showcase.
+For the presentation a created a [project](https://github.com/terribleherbst/ratpack-sampl) showing a simple list of coffee shops. It's a technology demo not best practice showcase.
 
-* The project uses the awesome [rapack.io](http://www.ratpack.io) framework. Ratpack is a combination of state of the art technologies for the enterprises, this example shows just the tip of the iceberg. It's not a JEE project but a standalone java programm.
-* The webserver is based on [netty.io](http://netty.io/). A Java framework using a none blocking IO model you might know from node.js on the Java Virtual Maschine (JVM), so you'll have no blocked threads and a much better throughput than using the old Servlet API.
-* I'm using a groovy driven domain specific language. [Groovy](http://www.groovy-lang.org/) allows you to write much less verbose code than pure java as you can see from the _ratpack.groovy_ file. It also allows you to write script code, you can change without restarting the virtual maschine. Nevertheless for production use you can also compile all Groovy classes to regular Java Bytecode.
+* The project uses the  [rapack.io](http://www.ratpack.io) framework. Ratpack.io is a combination of state of the art technologies for the enterprises (i.e. netty, gradle, hystrix), this example shows just the tip of the iceberg. It's not a JEE project but a standalone java programm.
+* The webserver is based on [netty.io](http://netty.io/). A Java framework using a none blocking IO model you might know from node.js on the Java Virtual Maschine (JVM). So you'll have no blocked threads and a much better throughput than using the _old_ Servlet API.
+* I'm using a groovy driven domain specific language for definig the REST service. [Groovy](http://www.groovy-lang.org/) allows you to write much less verbose code than pure java as you can see from the _ratpack.groovy_ file. It also allows you to write script code, you can change without restarting the virtual maschine. Nevertheless for production use you can also compile all Groovy classes to regular Java Bytecode.
 
 ```
         handler("stores/:id") {
@@ -43,7 +43,7 @@ The [project](https://github.com/terribleherbst/ratpack-sampl) shows a simple li
 ```
 
 * The project is build with [gradle](http://gradle.org/). A build tool which allows you to write build script in groovy based on convention over configuration. So you get the well structured projects you now from maven with the flexibility you know from ant without learning a new language.
-* The webpage is mad with [AngularJS](http://angularjs.org/). You can see it uses pretty straight HTML (look at _list.html_ or _details.html_). AngularJS just adds some attributes, so you can use your favourite development environment without JSP tags or other strange stuff in your HTML code.
+* The webpage is made with [AngularJS](http://angularjs.org/). You can see it uses pretty straight HTML (look at _list.html_ or _details.html_). AngularJS just adds some attributes, so you can use your favourite web development environment without JSP tags or other strange stuff in your HTML code.
 ```
 <table class="table table-striped table-bordered">
     <thead>
@@ -70,7 +70,7 @@ The [project](https://github.com/terribleherbst/ratpack-sampl) shows a simple li
 ```
 
 
-* As you can see the AngularJS framwork uses a MVC Pattern with Dependency injection. So you can write well structured testable code in JavaScript.
+* As you can see the AngularJS framwork uses a MVC Pattern with Dependency Injection. So you *can* write well structured testable code in JavaScript.
 * The project includes a JavaScript Testcase which can be run using the [Karma framework](https://karma-runner.github.io/). It is running in an actual browser of your choice and executed whenever you change your JavaScript code.
 
 # Checkout and try
