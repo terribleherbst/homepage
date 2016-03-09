@@ -1,6 +1,6 @@
 ---
 title: Time and Money
-date: 2015-01-14
+date: 2016-01-14
 template: single.hbt
 ---
 # The paradox of time and money
@@ -11,4 +11,5 @@ When I started as a professional programmer there were many situation I wished I
 
 # More time, better software?
 Today my situation is different. When I'm envoled in software projects there is sometimes a lot of time. People are uncertain about their decissions and have a lot of things in mind but loosing business focus. So development priorities are neither ordered by technical or business needs but to personal goodwill. So todays software is good in terms of technical depts but suffers _business depts_. It does what it does but nobody wants this.
-The situation seems strange but I've seen it more than once. Sometimes people need a deadline. You need a goal to get things started and you need a limit on time and budget to prioritise things. A lot of people seems to start work just before a deadline (or at least a meeting) so if a work organisation lacks deadlines a lot of work is done but you'll reach no goals.
+The situation seems strange but I've seen it more than once. People need a deadline. You need a goal to get things started and you need a limit on time and budget to prioritise things. A lot of people seems to start work just before a deadline (or at least a meeting) so if a work organisation lacks deadlines a lot of work is done but you'll reach no goals.
+Give your team the time to get things done, no more no less to achive the best results.
