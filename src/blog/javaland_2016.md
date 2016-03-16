@@ -19,5 +19,7 @@ Every conference addresses different kinds of people. So there is always somethi
 * Java has some boilerplate. Also the way it works is pretty dirty, take a look at [Lombok](https://projectlombok.org/features/index.html). It can help you to avoid a lot of boilerplate code. It is also a great tool for creating value objects.
 * I had the chance listening to a talk MDD. I like this approach a lot but I'm still not sure if I _can_ apply it to my day to day project work.
 
+
+
 All together I've noticed the stuff I use in my projects is pretty much up to date. There are always some new thing I should have a look at and you can always improve your codebase but all together I really love my stuff and java is a really impressive and very stable platform.
  
